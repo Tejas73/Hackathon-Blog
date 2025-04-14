@@ -1,14 +1,14 @@
 import React from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 
-function Navbar() {
+const Navbar = () => {
   // get the navigate function reference
   const navigate = useNavigate()
 
   const onLogout = () => {
     // clear the token and user name from session storage
     sessionStorage.removeItem('token')
-    sessionStorage.removeItem('name') 
+    sessionStorage.removeItem('name')
 
     // navigate to the login screen
     navigate('/')

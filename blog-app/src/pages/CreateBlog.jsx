@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function CreateBlog() {
+const CreateBlog=()=> {
   return (
     <div>
       <h1 className='page-header'>Edit / Create Blog</h1>

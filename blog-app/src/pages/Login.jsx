@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function Login() {
+const Login = () => {
   return (
     <div>
       <h1 className='page-header'>Login</h1>

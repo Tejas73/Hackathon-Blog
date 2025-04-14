@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function AllBlogs() {
+const AllBlogs=()=> {
   return (
     <div>
       <h1 className='page-header'>My Blogs</h1>

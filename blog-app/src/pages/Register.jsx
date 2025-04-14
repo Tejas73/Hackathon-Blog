@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 
-function Register() {
+const Register=()=> {
   // get the navigation function reference
   const navigate = useNavigate()
 
