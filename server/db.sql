@@ -16,7 +16,7 @@ CREATE TABLE users(
 CREATE TABLE categories(
     cid INT PRIMARY KEY AUTO_INCREMENT,
     title VARCHAR(50),
-    description_c VARCHAR(50)
+    description_c VARCHAR(50) 
 );
 
 -- blogs table
