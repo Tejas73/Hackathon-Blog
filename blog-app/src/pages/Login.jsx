@@ -32,7 +32,7 @@ function Login() {
 
                 
               
-              <button className='btn btn-success'>Sign up</button>
+              <button className='btn btn-success'> Sign up</button>
             </div>
           </div>
         </div>

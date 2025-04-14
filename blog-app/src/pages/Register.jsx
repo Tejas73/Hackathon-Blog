@@ -15,15 +15,15 @@ function Register() {
 
   return (
     <div>
-      <h1 className='page-header'>Registration</h1>
+      <h1 className='page-header'>Register</h1>
 
       <div className='row'>
         <div className='col'></div>
         <div className='col'>
           <div className='mb-3'>
-            <label htmlFor=''>Email</label>
+            <label htmlFor=''>First Name</label>
             <input
-              type='email'
+              type='text'
               className='form-control'
             />
           </div>
